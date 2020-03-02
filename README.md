@@ -6,6 +6,7 @@ This repo contains samples for using Terraform 0.12 to deploy and manage Azure G
 
 * [x] Support multiple Azure AD Tenants in a multistage pipeline - Currently dev and prod, but designed to support easy addition of more stages.
 * [x] Azure Pipelines YAML templates for common tasks.
+* [*] [Disable PR build and secrets for forks](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#validate-contributions-from-forks).
 * [x] Use of containers to support required tooling version pinning.
   * [ ] Extend usage of container for dev scenarios with Visual Studio Code
 * [ ] Implement Azure Governance Resources
